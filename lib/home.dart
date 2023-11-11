@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
         body: Center(
           child: Column(
             children: [const SizedBox(height: 20.0,),
-              //const SizedBox(height: 20.0),
+              const SizedBox(height: 20.0),
               Text('You want to exchange : $_amount $from',
                   style: const TextStyle(fontSize: 18.0)),
               const SizedBox(height: 20.0,),
