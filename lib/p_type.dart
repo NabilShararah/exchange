@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 class Petrol {
   String model;
   int price;
-  int Type = 1;//Style
-  bool Card = false;//KitType
+  int Type = 1;
+  bool Card = false;
 
   Petrol(this.model, this.price);
   // toString method used to display an item in a dropdown widget
@@ -13,11 +13,11 @@ class Petrol {
   }
   String getTotalPrice() {
 
-    int KitTypeamount = Card ? 2 : 0;
+    int PetrolAmount = Card ? 2 : 0;
     if (Type == 1) {
-      return (price + KitTypeamount).toStringAsFixed(0);
+      return (price + PetrolAmount).toStringAsFixed(0);
     }
-    return (price * 1.2 + KitTypeamount).toStringAsFixed(0);
+    return (price * 1.2 + PetrolAmount).toStringAsFixed(0);
   }
 
 }

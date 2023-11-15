@@ -11,7 +11,7 @@ class Page3 extends StatefulWidget {
 class _Page3State extends State<Page3> {
   String totalPrice = petrols.first.getTotalPrice();
   Petrol petr = petrols.first;
-  bool CardP = false;//KitStyle
+  bool CardP = false;
   void updatePetrol(Petrol petr) {
 
     setState(() {
