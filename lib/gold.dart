@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'petrol.dart';
 class Page2 extends StatefulWidget {
   const Page2({Key? key}):super(key:key);
@@ -107,9 +106,7 @@ class _Page2State extends State<Page2> {
 
         const SizedBox(height:10),
         ElevatedButton(onPressed:(){
-          Navigator.of(context).pop();/*push(
-              MaterialPageRoute(builder:(context)=>const Page1())
-          );*/
+          Navigator.of(context).pop();
         },style: ElevatedButton.styleFrom(
           primary: Colors.black,),
             child: const Text('Exchange Rate')//Icon(Icons.navigate_next,size:50)
